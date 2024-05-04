@@ -24,7 +24,7 @@ Images or additional files needed to make your notebook or report complete can b
 <img src="img/sagemaker-studio-git1.png" alt="sagemaker-studio-git1.png" width="500"/>
 <img src="img/sagemaker-studio-git2.png" alt="sagemaker-studio-git2.png" width="500"/>
 
-* Proceed with the project within the [jupyter notebook](project-template.ipynb).
+* Proceed with the project within the [jupyter notebook](project-autogluon.ipynb).
 * Visit the [Kaggle Bike Sharing Demand Competition](https://www.kaggle.com/c/bike-sharing-demand) page. There you will see the overall details about the competition including overview, data, code, discussion, leaderboard, and rules. You will primarily be focused on the data and ranking sections.
 
 ### Dependencies
