@@ -6,7 +6,7 @@
 Kaggle will reject submission if the prediction result contain negative value. So, the first thing to do before submit prediction results is to check negative value and replace them with 0.
 
 ### What was the top ranked model that performed?
-The top ranked model was the third model with hyperparameter optimization, that achieve the best kaggle score of 0.45011. The model takes data that was perform with Exploratory Data Analysis (EDA) and feature engineering, with some hyperparameter optimization.
+The third experiment (hyperparameter optimization) obtain the best kaggle score of 0.45011. The top ranked model was the WeightedEnsemble_L3, with -32.739938	score_val. The model takes data that was perform with Exploratory Data Analysis (EDA) and feature engineering, with some hyperparameter optimization.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
@@ -27,9 +27,9 @@ I would like to perform hyperparameter optimization to find the best prediction.
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|-|-|-|-|
-|initial|time_limit=600|presets=best_quality|hyperparameter=default|1.76830|
-|add_features|time_limit=600|presets=best_quality|hyperparameter=default|0.70709|
-|hpo|time_limit=600|presets=best_quality|hyperparameter=light|0.45011|
+|initial|time_limit=600|presets=best_quality|hyperparameter=default|1.76690|
+|add_features|time_limit=600|presets=best_quality|hyperparameter=default|0.70968|
+|hpo|time_limit=600|presets=best_quality|hyperparameter=light|0.44776|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
